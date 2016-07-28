@@ -1,0 +1,23 @@
+.wb-other-tix {
+	padding: 0;
+	margin: 0;
+}
+
+.wb-other-tix li {
+	list-style: none;
+	padding: 5px;
+	margin: 2px;
+	background: #f3f3f3;
+}
+
+.wb-other-tix li a {
+	font-size: 12px;
+}
+.wb-other-tix li a:hover {
+	text-decoration: none;
+}
+
+.wb-other-tix li a span {
+	font-size: 10px;
+	color: #c0c0c0;
+}

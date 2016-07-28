@@ -1,0 +1,2575 @@
+2016-07-19 14:47:23 Error: [MissingViewException] View file "Ticket/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/index.ctp',
+)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-19 14:55:28 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 14:55:28 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 14:56:57 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 14:56:57 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 14:58:43 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 14:58:43 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 14:58:45 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 14:58:45 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 14:59:21 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 14:59:21 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 14:59:22 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 14:59:22 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 14:59:23 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 14:59:23 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 15:14:28 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 15:14:28 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 15:20:34 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 15:20:34 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 15:20:36 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 6]
+2016-07-19 15:20:36 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 6, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-19 15:43:20 Error: Fatal Error (4): syntax error, unexpected '$ch' (T_VARIABLE) in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 10]
+2016-07-19 15:43:20 Error: [FatalErrorException] syntax error, unexpected '$ch' (T_VARIABLE)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 10, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 10, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:12:14 Error: Fatal Error (1): Class 'SupportBeeController' not found in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 2]
+2016-07-20 11:12:14 Error: [FatalErrorException] Class 'SupportBeeController' not found
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SupportB...', '/var/www/html/w...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SupportB...', '/var/www/html/w...', 2, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'SupportB...', '/var/www/html/w...', 2, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:12:37 Error: Fatal Error (1): Class 'SupportBeeController' not found in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 4]
+2016-07-20 11:12:37 Error: [FatalErrorException] Class 'SupportBeeController' not found
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SupportB...', '/var/www/html/w...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:12:38 Error: Fatal Error (1): Class 'SupportBeeController' not found in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 4]
+2016-07-20 11:12:38 Error: [FatalErrorException] Class 'SupportBeeController' not found
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SupportB...', '/var/www/html/w...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:12:38 Error: Fatal Error (1): Class 'SupportBeeController' not found in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 4]
+2016-07-20 11:12:38 Error: [FatalErrorException] Class 'SupportBeeController' not found
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SupportB...', '/var/www/html/w...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:12:38 Error: Fatal Error (1): Class 'SupportBeeController' not found in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 4]
+2016-07-20 11:12:38 Error: [FatalErrorException] Class 'SupportBeeController' not found
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SupportB...', '/var/www/html/w...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'SupportB...', '/var/www/html/w...', 4, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:14:03 Error: Fatal Error (1): Call to undefined method TicketController::apiGet() in [/var/www/html/wbsupport/app/Controller/SupportBeeController.php, line 7]
+2016-07-20 11:14:03 Error: [FatalErrorException] Call to undefined method TicketController::apiGet()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:14:55 Error: Fatal Error (1): Call to undefined method TicketController::apiGet() in [/var/www/html/wbsupport/app/Controller/SupportBeeController.php, line 7]
+2016-07-20 11:14:55 Error: [FatalErrorException] Call to undefined method TicketController::apiGet()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:16:05 Error: Fatal Error (1): Call to undefined method TicketController::apiGet() in [/var/www/html/wbsupport/app/Controller/SupportBeeController.php, line 7]
+2016-07-20 11:16:05 Error: [FatalErrorException] Call to undefined method TicketController::apiGet()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:16:05 Error: Fatal Error (1): Call to undefined method TicketController::apiGet() in [/var/www/html/wbsupport/app/Controller/SupportBeeController.php, line 7]
+2016-07-20 11:16:05 Error: [FatalErrorException] Call to undefined method TicketController::apiGet()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:16:06 Error: Fatal Error (1): Call to undefined method TicketController::apiGet() in [/var/www/html/wbsupport/app/Controller/SupportBeeController.php, line 7]
+2016-07-20 11:16:06 Error: [FatalErrorException] Call to undefined method TicketController::apiGet()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:16:06 Error: Fatal Error (1): Call to undefined method TicketController::apiGet() in [/var/www/html/wbsupport/app/Controller/SupportBeeController.php, line 7]
+2016-07-20 11:16:06 Error: [FatalErrorException] Call to undefined method TicketController::apiGet()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:16:06 Error: Fatal Error (1): Call to undefined method TicketController::apiGet() in [/var/www/html/wbsupport/app/Controller/SupportBeeController.php, line 7]
+2016-07-20 11:16:06 Error: [FatalErrorException] Call to undefined method TicketController::apiGet()
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 7, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:28:03 Error: [MissingViewException] View file "Ticket/sample.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/sample.ctp',
+)
+Request URL: /wbsupport/ticket/sample
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-20 11:34:51 Error: Fatal Error (1): Call to undefined function array_prop() in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 29]
+2016-07-20 11:34:51 Error: [FatalErrorException] Call to undefined function array_prop()
+Request URL: /wbsupport/ticket/sample
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 29, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 29, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:40:17 Error: [MissingActionException] Action TicketController::sample() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketController',
+  'action' => 'sample',
+)
+Request URL: /wbsupport/ticket/sample
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-20 11:40:18 Error: [MissingActionException] Action TicketController::sample() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketController',
+  'action' => 'sample',
+)
+Request URL: /wbsupport/ticket/sample
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-20 11:59:05 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 17]
+2016-07-20 11:59:05 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/html/w...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/html/w...', 17, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/html/w...', 17, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:59:23 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 17]
+2016-07-20 11:59:23 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/html/w...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/html/w...', 17, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/html/w...', 17, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 11:59:26 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 17]
+2016-07-20 11:59:26 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/html/w...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/html/w...', 17, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/html/w...', 17, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 13:41:26 Error: Fatal Error (1): Call to undefined method View::parseImages() in [/var/www/html/wbsupport/app/View/Ticket/get.ctp, line 3]
+2016-07-20 13:41:26 Error: [FatalErrorException] Call to undefined method View::parseImages()
+Request URL: /wbsupport/ticket/get/9174539
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 3, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 3, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 13:48:37 Error: Fatal Error (1): Call to undefined method HelperCollection::parseImages() in [/var/www/html/wbsupport/app/View/Ticket/get.ctp, line 3]
+2016-07-20 13:48:37 Error: [FatalErrorException] Call to undefined method HelperCollection::parseImages()
+Request URL: /wbsupport/ticket/get/9174539
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 3, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 3, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 14:17:45 Error: Fatal Error (1): Call to undefined method View::referrer() in [/var/www/html/wbsupport/app/View/Reply/get.ctp, line 5]
+2016-07-20 14:17:45 Error: [FatalErrorException] Call to undefined method View::referrer()
+Request URL: /wbsupport/reply/get/9174539/4858506
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 5, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 5, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-20 14:58:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-20 14:58:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/css/jquery-2.x-git.css
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-20 14:58:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/css/jquery-2.x-git.css
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-20 14:58:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-20 14:58:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/css/jquery-2.x-git.css
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-21 07:01:50 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:18 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:22 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:23 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:24 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:24 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:24 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:25 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:08:28 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:09:57 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:10:04 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-21 07:10:05 Error: [NotFoundException] Invalid Ticket.
+Request URL: /wbsupport/ticket/get/
+Stack Trace:
+#0 [internal function]: TicketController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(TicketController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 08:46:13 Error: [MissingViewException] View file "User/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/login.ctp',
+)
+Request URL: /wbsupport/user/login
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 08:50:15 Error: [MissingViewException] View file "User/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/register.ctp',
+)
+Request URL: /wbsupport/user/register
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 09:01:26 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /wbsupport/user/login
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#1 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/html/wbsupport/app/View/User/login.ctp(24): FormHelper->create('User', Array)
+#5 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#6 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#7 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-27 09:12:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /wbsupport/user/login
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/wbsupport/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/html/wbsupport/app/View/User/login.ctp(24): FormHelper->create('User', Array)
+#9 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#10 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#11 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#12 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#15 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2016-07-27 09:12:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /wbsupport/user/login
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/wbsupport/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/html/wbsupport/app/View/User/login.ctp(24): FormHelper->create('User', Array)
+#9 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#10 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#11 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#12 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#15 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2016-07-27 09:35:40 Error: Fatal Error (64): Access level to UserController::getTeams() must be public (as in class SupportBeeController) in [/var/www/html/wbsupport/app/Controller/UserController.php, line 4]
+2016-07-27 09:35:40 Error: [FatalErrorException] Access level to UserController::getTeams() must be public (as in class SupportBeeController)
+Request URL: /wbsupport/user/register
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Access level to...', '/var/www/html/w...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Access level to...', '/var/www/html/w...', 4, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Access level to...', '/var/www/html/w...', 4, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 09:36:18 Error: Fatal Error (64): Access level to UserController::getTeams() must be public (as in class SupportBeeController) in [/var/www/html/wbsupport/app/Controller/UserController.php, line 4]
+2016-07-27 09:36:18 Error: [FatalErrorException] Access level to UserController::getTeams() must be public (as in class SupportBeeController)
+Request URL: /wbsupport/user/register
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Access level to...', '/var/www/html/w...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Access level to...', '/var/www/html/w...', 4, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Access level to...', '/var/www/html/w...', 4, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 09:39:55 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'Password' doesn't have a default value
+Request URL: /wbsupport/user/register
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `db...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `db...')
+#3 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/wbsupport/app/Controller/UserController.php(56): Model->save(Array)
+#6 [internal function]: UserController->register()
+#7 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#8 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#10 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-07-27 09:40:25 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'Password' doesn't have a default value
+Request URL: /wbsupport/user/register
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `db...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `db...')
+#3 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/wbsupport/app/Controller/UserController.php(56): Model->save(Array)
+#6 [internal function]: UserController->register()
+#7 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#8 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#10 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-07-27 09:40:40 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'Password' doesn't have a default value
+Request URL: /wbsupport/user/register
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `db...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1019): DboSource->execute('INSERT INTO `db...')
+#3 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/wbsupport/app/Controller/UserController.php(56): Model->save(Array)
+#6 [internal function]: UserController->register()
+#7 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#8 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#10 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-07-27 09:46:39 Error: [MissingActionException] Action TicketController::user() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketController',
+  'action' => 'user',
+)
+Request URL: /wbsupport/ticket/user/logout
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 09:54:23 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 24]
+2016-07-27 09:54:23 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 24, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 24, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 10:34:05 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 90]
+2016-07-27 10:34:05 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 90, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 90, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 10:35:41 Error: [MissingControllerException] Controller class GetController could not be found.
+Exception Attributes: array (
+  'class' => 'GetController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/get?ticketid=&subject=&label=
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 10:35:41 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 88]
+2016-07-27 10:35:41 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/get?ticketid=&subject=&label=
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 10:45:54 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 88]
+2016-07-27 10:45:54 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/reply/get/9449372/5089727
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 10:46:26 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 88]
+2016-07-27 10:46:26 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/reply/get/9174539/4858506
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 10:47:42 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 10:47:47 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 10:47:49 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 10:47:57 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 12:09:37 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tickets',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('tickets')
+#1 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /var/www/html/wbsupport/app/View/Ticket/index.ctp(6): FormHelper->create('Ticket', Array)
+#5 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#6 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#7 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-27 12:19:29 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tickets',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('tickets')
+#1 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /var/www/html/wbsupport/app/View/Ticket/index.ctp(6): FormHelper->create('Ticket', Array)
+#5 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#6 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#7 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-27 12:19:47 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tickets',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('tickets')
+#1 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /var/www/html/wbsupport/app/View/Ticket/index.ctp(6): FormHelper->create('Ticket', Array)
+#5 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#6 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#7 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-27 12:20:16 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tickets',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('tickets')
+#1 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /var/www/html/wbsupport/app/View/Ticket/index.ctp(6): FormHelper->create('Ticket', Array)
+#5 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#6 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#7 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-27 12:20:34 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tickets',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('tickets')
+#1 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /var/www/html/wbsupport/app/View/Ticket/index.ctp(6): FormHelper->create('Ticket', Array)
+#5 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#6 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#7 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-27 12:21:28 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tickets',
+  'class' => 'Ticket',
+  'ds' => 'default',
+)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3653): Model->setSource('tickets')
+#1 /var/www/html/wbsupport/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/wbsupport/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /var/www/html/wbsupport/app/View/Ticket/index.ctp(6): FormHelper->create('Ticket', Array)
+#5 /var/www/html/wbsupport/lib/Cake/View/View.php(971): include('/var/www/html/w...')
+#6 /var/www/html/wbsupport/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/w...', Array)
+#7 /var/www/html/wbsupport/lib/Cake/View/View.php(473): View->_render('/var/www/html/w...')
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-27 12:21:42 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 89]
+2016-07-27 12:21:42 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 12:21:44 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 89]
+2016-07-27 12:21:44 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 12:21:44 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 89]
+2016-07-27 12:21:44 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 12:21:45 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 89]
+2016-07-27 12:21:45 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 12:21:45 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 89]
+2016-07-27 12:21:45 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 12:21:46 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 89]
+2016-07-27 12:21:46 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 89, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 12:41:35 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/app/webroot/img/wblogo-white.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 12:41:35 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 88]
+2016-07-27 12:41:35 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/wbsupport/app/webroot/img/wblogo-white.png
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 12:57:39 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 88]
+2016-07-27 12:57:39 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/app/webroot/img/wblogo-blue.png
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:01:39 Error: Fatal Error (1): Call to a member function findById() on null in [/var/www/html/wbsupport/app/Controller/AppController.php, line 88]
+2016-07-27 13:01:39 Error: [FatalErrorException] Call to a member function findById() on null
+Request URL: /wbsupport/
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 88, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:10:52 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/var/www/html/wbsupport/app/View/Ticket/index.ctp, line 76]
+2016-07-27 13:10:52 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:10:56 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/var/www/html/wbsupport/app/View/Ticket/index.ctp, line 76]
+2016-07-27 13:10:56 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:11:35 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 89]
+2016-07-27 13:11:35 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 89, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 89, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:11:52 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/var/www/html/wbsupport/app/View/Ticket/index.ctp, line 76]
+2016-07-27 13:11:52 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:12:23 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/var/www/html/wbsupport/app/View/Ticket/index.ctp, line 76]
+2016-07-27 13:12:23 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 76, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:12:49 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/var/www/html/wbsupport/app/View/Ticket/index.ctp, line 80]
+2016-07-27 13:12:49 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 80, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 80, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:12:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:12:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:13:56 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:13:56 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:14:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:14:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:14:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_desc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:15:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:15:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:16:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:16:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:16:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:16:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:16:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:16:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:18:43 Error: Fatal Error (4): syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$' in [/var/www/html/wbsupport/app/View/Ticket/index.ctp, line 44]
+2016-07-27 13:18:43 Error: [FatalErrorException] syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 13:18:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:18:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:19:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:19:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:21:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:22:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_both.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 13:22:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 14:52:36 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport//wbsupport/reply/get/9449372/5089727
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 14:52:40 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 14:53:00 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 15:00:45 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 15:02:18 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 15:31:19 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/var/www/html/wbsupport/app/View/Ticket/get.ctp, line 36]
+2016-07-27 15:31:19 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /wbsupport/ticket/get/9449372
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 36, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 36, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 15:44:55 Error: [MissingActionException] Action TicketController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketController',
+  'action' => '2',
+)
+Request URL: /wbsupport/ticket/2
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 15:45:01 Error: [MissingActionException] Action TicketController::page:2() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketController',
+  'action' => 'page:2',
+)
+Request URL: /wbsupport/ticket/page:2
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 16:42:29 Error: Fatal Error (4): syntax error, unexpected ':' in [/var/www/html/wbsupport/app/Controller/TicketController.php, line 33]
+2016-07-27 16:42:29 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 33, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 33, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 16:48:29 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-27 16:48:44 Error: [MissingViewException] View file "Ticket/readcache.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/readcache.ctp',
+)
+Request URL: /wbsupport/ticket/readcache
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 16:48:58 Error: [MissingViewException] View file "Ticket/readcache.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/readcache.ctp',
+)
+Request URL: /wbsupport/ticket/readcache
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 16:49:03 Error: [MissingViewException] View file "Ticket/readcache.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/readcache.ctp',
+)
+Request URL: /wbsupport/ticket/readcache
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 16:49:05 Error: [MissingViewException] View file "Ticket/readcache.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/readcache.ctp',
+)
+Request URL: /wbsupport/ticket/readcache
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 16:49:05 Error: [MissingViewException] View file "Ticket/readcache.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/readcache.ctp',
+)
+Request URL: /wbsupport/ticket/readcache
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-27 16:49:05 Error: [MissingViewException] View file "Ticket/readcache.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Ticket/readcache.ctp',
+)
+Request URL: /wbsupport/ticket/readcache
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 07:07:58 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:07:58 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:08:00 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:08:00 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket/index
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:08:07 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:08:07 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:09:05 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:09:05 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:09:06 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:09:06 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:09:06 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:09:06 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:09:06 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:09:06 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:09:06 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:09:06 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:09:39 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:09:39 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:09:39 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:09:39 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:10:19 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:10:19 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:10:19 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:10:19 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:10:19 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:10:19 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:10:39 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:10:39 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:10:40 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:10:40 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:10:40 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:10:40 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:11:05 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:11:05 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:11:05 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:11:05 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:11:05 Error: Fatal Error (4): syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 44]
+2016-07-28 07:11:05 Error: [FatalErrorException] syntax error, unexpected '$authErr' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:12:17 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:12:17 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:12:17 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:12:17 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:12:17 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:12:17 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:12:24 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/html/wbsupport/app/Controller/AppController.php, line 51]
+2016-07-28 07:12:24 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 51, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 07:41:41 Error: [CacheException] Cache engine "long" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('long')
+#1 /var/www/html/wbsupport/app/Config/bootstrap.php(125): Cache::config('long', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/Configure.php(98): include('/var/www/html/w...')
+#3 /var/www/html/wbsupport/lib/Cake/bootstrap.php(431): Configure::bootstrap(true)
+#4 /var/www/html/wbsupport/app/webroot/index.php(98): include('/var/www/html/w...')
+#5 /var/www/html/wbsupport/index.php(41): require('/var/www/html/w...')
+#6 {main}
+2016-07-28 07:42:08 Error: [CacheException] Cache engine "long" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('long')
+#1 /var/www/html/wbsupport/app/Config/bootstrap.php(125): Cache::config('long', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/Configure.php(98): include('/var/www/html/w...')
+#3 /var/www/html/wbsupport/lib/Cake/bootstrap.php(431): Configure::bootstrap(true)
+#4 /var/www/html/wbsupport/app/webroot/index.php(95): include('/var/www/html/w...')
+#5 {main}
+2016-07-28 07:42:11 Error: [CacheException] Cache engine "long" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('long')
+#1 /var/www/html/wbsupport/app/Config/bootstrap.php(125): Cache::config('long', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/Configure.php(98): include('/var/www/html/w...')
+#3 /var/www/html/wbsupport/lib/Cake/bootstrap.php(431): Configure::bootstrap(true)
+#4 /var/www/html/wbsupport/app/webroot/index.php(95): include('/var/www/html/w...')
+#5 {main}
+2016-07-28 07:44:59 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:45:05 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:51:29 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:56:12 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:56:52 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:56:53 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:57:05 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/home/
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:57:09 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/home/index
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 07:58:59 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 08:02:37 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/page
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 08:02:40 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 08:02:43 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-28 08:13:03 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [/var/www/html/wbsupport/app/Controller/UserController.php, line 18]
+2016-07-28 08:13:03 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /wbsupport/user/register
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 18, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 18, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 08:22:17 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/html/wbsupport/app/Controller/AppController.php, line 52]
+2016-07-28 08:22:17 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /wbsupport/user/login
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 52, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 52, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 08:27:35 Error: Fatal Error (4): syntax error, unexpected '0' (T_LNUMBER) in [/var/www/html/wbsupport/app/Controller/UserController.php, line 22]
+2016-07-28 08:27:35 Error: [FatalErrorException] syntax error, unexpected '0' (T_LNUMBER)
+Request URL: /wbsupport/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 22, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 22, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 08:38:49 Error: Fatal Error (1): Call to a member function read() on null in [/var/www/html/wbsupport/app/Controller/UserController.php, line 18]
+2016-07-28 08:38:49 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /wbsupport/user/
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 18, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 18, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 08:48:44 Error: Fatal Error (1): Call to undefined method AdminController::redirec() in [/var/www/html/wbsupport/app/Controller/AdminController.php, line 18]
+2016-07-28 08:48:44 Error: [FatalErrorException] Call to undefined method AdminController::redirec()
+Request URL: /wbsupport/admin
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 18, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 18, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 08:49:23 Error: [MissingViewException] View file "Admin/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/index.ctp',
+)
+Request URL: /wbsupport/admin
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 09:04:22 Error: [MissingActionException] Action AdminController::user() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'user',
+)
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-28 09:07:55 Error: [MissingActionException] Action AdminController::ticket() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'ticket',
+)
+Request URL: /wbsupport/admin/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-28 09:08:24 Error: [MissingViewException] View file "Admin/ticket.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin/ticket.ctp',
+)
+Request URL: /wbsupport/admin/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 09:21:26 Error: Fatal Error (1): Call to undefined function paginate() in [/var/www/html/wbsupport/app/Controller/AdminController.php, line 38]
+2016-07-28 09:21:26 Error: [FatalErrorException] Call to undefined function paginate()
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 38, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 38, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 09:30:20 Error: Fatal Error (4): syntax error, unexpected 'tag' (T_STRING), expecting ',' or ';' in [/var/www/html/wbsupport/app/View/Admin/user.ctp, line 21]
+2016-07-28 09:30:20 Error: [FatalErrorException] syntax error, unexpected 'tag' (T_STRING), expecting ',' or ';'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 21, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 21, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 09:47:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.user_id' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:47:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.TeamId' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:47:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.User.TeamId' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:48:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.TeamId' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:49:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.user_id' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:51:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.TeamId' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:53:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:53:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:55:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:56:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:56:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:56:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:56:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:56:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.TeamId' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:56:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Team.TeamId' in 'on clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('first', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(595): Model->find('first', Array)
+#7 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(User))
+#8 /var/www/html/wbsupport/app/Controller/AppController.php(93): Model->__call('findById', Array)
+#9 /var/www/html/wbsupport/app/Controller/AppController.php(93): User->findById('5')
+#10 /var/www/html/wbsupport/app/Controller/AdminController.php(10): AppController->beforeFilter()
+#11 [internal function]: AdminController->beforeFilter(Object(CakeEvent))
+#12 /var/www/html/wbsupport/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#15 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#16 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2016-07-28 09:56:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:59:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 09:59:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(40): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(40): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 10:02:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'teams Team INNER Array  WHERE `User`.`EmailAddress` != 'projects@websiteblue.com' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/wbsupport/app/Controller/AdminController.php(46): PaginatorComponent->paginate('User')
+#8 [internal function]: AdminController->user()
+#9 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#12 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-07-28 10:16:24 Error: [MissingActionException] Action UserController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'add',
+)
+Request URL: /wbsupport/user/add
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-28 10:17:03 Error: [MissingViewException] View file "User/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/add.ctp',
+)
+Request URL: /wbsupport/user/add
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 10:38:01 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/var/www/html/wbsupport/app/View/User/add.ctp, line 44]
+2016-07-28 10:38:01 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /wbsupport/user/add
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 44, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 10:42:28 Error: Fatal Error (4): syntax error, unexpected 'o' (T_STRING) in [/var/www/html/wbsupport/app/View/User/add.ctp, line 8]
+2016-07-28 10:42:28 Error: [FatalErrorException] syntax error, unexpected 'o' (T_STRING)
+Request URL: /wbsupport/user/add
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 8, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 8, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 10:42:29 Error: Fatal Error (4): syntax error, unexpected 'o' (T_STRING) in [/var/www/html/wbsupport/app/View/User/add.ctp, line 8]
+2016-07-28 10:42:29 Error: [FatalErrorException] syntax error, unexpected 'o' (T_STRING)
+Request URL: /wbsupport/user/add
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 8, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 8, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 10:51:08 Error: Fatal Error (4): syntax error, unexpected ''roles'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/html/wbsupport/app/Controller/UserController.php, line 54]
+2016-07-28 10:51:08 Error: [FatalErrorException] syntax error, unexpected ''roles'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /wbsupport/user/add
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 54, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 54, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 10:57:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(53): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(53): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 10:58:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(57): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(57): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 11:07:27 Error: [MissingViewException] View file "User/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/edit.ctp',
+)
+Request URL: /wbsupport/user/edit/8
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 11:17:01 Error: [NotFoundException] Invalid user
+Request URL: /wbsupport/user/edit
+Stack Trace:
+#0 [internal function]: UserController->edit()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 11:17:15 Error: [NotFoundException] Invalid user
+Request URL: /wbsupport/user/edit
+Stack Trace:
+#0 [internal function]: UserController->edit()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 11:17:17 Error: [NotFoundException] Invalid user
+Request URL: /wbsupport/user/edit/
+Stack Trace:
+#0 [internal function]: UserController->edit()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-28 11:29:31 Error: Fatal Error (4): syntax error, unexpected ''search'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/html/wbsupport/app/Controller/AdminController.php, line 73]
+2016-07-28 11:29:31 Error: [FatalErrorException] syntax error, unexpected ''search'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 73, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 73, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-28 11:44:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS FullName LIKE '%' AND `User`.`Role` = '' AND `User`.`TeamId` IS NULL    LIMIT' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.*...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.*...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.*...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/wbsupport/app/Controller/AdminController.php(91): PaginatorComponent->paginate('User')
+#8 [internal function]: AdminController->user()
+#9 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#12 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-07-28 11:46:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lastQuery' at line 1
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('lastQuery', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('lastQuery', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('lastQuery', Array, Array)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(827): DboSource->query('lastQuery', Array, Object(User))
+#5 /var/www/html/wbsupport/app/Controller/AdminController.php(95): Model->__call('lastQuery', Array)
+#6 /var/www/html/wbsupport/app/Controller/AdminController.php(95): User->lastQuery()
+#7 [internal function]: AdminController->user()
+#8 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#11 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-07-28 13:18:00 Error: [MissingActionException] Action TicketController::page:1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketController',
+  'action' => 'page:1',
+)
+Request URL: /wbsupport/ticket/page:1
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-28 13:18:04 Error: [MissingActionException] Action TicketController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TicketController',
+  'action' => '1',
+)
+Request URL: /wbsupport/ticket/1
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TicketController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

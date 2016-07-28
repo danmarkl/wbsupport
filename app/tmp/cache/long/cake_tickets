@@ -1,0 +1,55 @@
+1470213671
+a:5:{s:5:"total";i:2;s:12:"current_page";s:1:"1";s:8:"per_page";i:15;s:11:"total_pages";i:1;s:7:"tickets";a:2:{i:0;a:22:{s:2:"id";i:9521822;s:7:"subject";s:26:"#9521822 Lukes Test Ticket";s:13:"replies_count";i:0;s:19:"agent_replies_count";i:0;s:14:"comments_count";i:1;s:16:"last_activity_at";s:20:"2016-07-27T04:26:02Z";s:10:"created_at";s:20:"2016-07-27T04:25:55Z";s:10:"unanswered";b:1;s:8:"archived";b:0;s:7:"private";b:0;s:4:"spam";b:0;s:5:"trash";b:0;s:7:"summary";s:100:"Font Definitions */ @font-face {font-family:"Cambria Math"; panose-1:2 4 5 3 5 4 6 3 2 4;} @font-fac";s:5:"draft";b:0;s:6:"source";a:1:{s:5:"email";s:27:"domainrural@websiteblue.com";}s:6:"labels";a:0:{}s:21:"current_team_assignee";a:1:{s:4:"team";a:4:{s:2:"id";i:5786;s:4:"name";s:12:"Domain Rural";s:7:"private";b:0;s:7:"picture";a:5:{s:7:"thumb20";s:44:"/images/groups/speech-balloon-orange-d20.png";s:7:"thumb24";s:44:"/images/groups/speech-balloon-orange-d24.png";s:7:"thumb32";s:44:"/images/groups/speech-balloon-orange-d32.png";s:7:"thumb48";s:44:"/images/groups/speech-balloon-orange-d48.png";s:8:"thumb256";s:45:"/images/groups/speech-balloon-orange-d256.png";}}}s:15:"customer_rating";a:0:{}s:7:"content";a:4:{s:4:"html";s:38:"  <div class="WordSection1">  </div>  ";s:4:"text";s:1060:"
+
+&lt;!--
+/* Font Definitions */
+@font-face
+	{font-family:&quot;Cambria Math&quot;;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	color:#404040;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--&gt;
+ 
+
+
+";s:9:"truncated";b:0;s:11:"attachments";a:0:{}}s:7:"starred";b:0;s:2:"cc";a:0:{}s:9:"requester";a:6:{s:2:"id";i:2013952;s:5:"email";s:20:"luke@websiteblue.com";s:4:"name";s:11:"Luke Thomas";s:4:"role";s:5:"admin";s:5:"agent";b:1;s:7:"picture";a:6:{s:7:"thumb20";s:108:"https://s3.amazonaws.com/com.supportbee.app/uploads/user_setting/profile_picture/2006538/thumb20_1cca88f.jpg";s:7:"thumb24";s:108:"https://s3.amazonaws.com/com.supportbee.app/uploads/user_setting/profile_picture/2006538/thumb24_1cca88f.jpg";s:7:"thumb32";s:108:"https://s3.amazonaws.com/com.supportbee.app/uploads/user_setting/profile_picture/2006538/thumb32_1cca88f.jpg";s:7:"thumb48";s:108:"https://s3.amazonaws.com/com.supportbee.app/uploads/user_setting/profile_picture/2006538/thumb48_1cca88f.jpg";s:7:"thumb64";s:108:"https://s3.amazonaws.com/com.supportbee.app/uploads/user_setting/profile_picture/2006538/thumb64_1cca88f.jpg";s:8:"thumb128";s:109:"https://s3.amazonaws.com/com.supportbee.app/uploads/user_setting/profile_picture/2006538/thumb128_1cca88f.jpg";}}}i:1;a:22:{s:2:"id";i:9449372;s:7:"subject";s:6:"Sample";s:13:"replies_count";i:1;s:19:"agent_replies_count";i:1;s:14:"comments_count";i:1;s:16:"last_activity_at";s:20:"2016-07-19T07:51:54Z";s:10:"created_at";s:20:"2016-07-19T07:50:53Z";s:10:"unanswered";b:0;s:8:"archived";b:0;s:7:"private";b:0;s:4:"spam";b:0;s:5:"trash";b:0;s:7:"summary";s:103:"eee -- Kind Regards, James Groth   Group Managing Director  Website Blue  p: 1300 650 520 s: jimby22";s:5:"draft";b:0;s:6:"source";a:1:{s:3:"web";s:23:"support@websiteblue.com";}s:6:"labels";a:0:{}s:21:"current_team_assignee";a:1:{s:4:"team";a:4:{s:2:"id";i:5786;s:4:"name";s:12:"Domain Rural";s:7:"private";b:0;s:7:"picture";a:5:{s:7:"thumb20";s:44:"/images/groups/speech-balloon-orange-d20.png";s:7:"thumb24";s:44:"/images/groups/speech-balloon-orange-d24.png";s:7:"thumb32";s:44:"/images/groups/speech-balloon-orange-d32.png";s:7:"thumb48";s:44:"/images/groups/speech-balloon-orange-d48.png";s:8:"thumb256";s:45:"/images/groups/speech-balloon-orange-d256.png";}}}s:15:"customer_rating";a:0:{}s:7:"content";a:4:{s:4:"html";s:210:"<div>Sample<br>--<br>Kind Regards,<br>James Groth<br> <br>Group Managing Director <br>Website Blue <br>p: 1300 650 520 s: jimby222 f: 07 3399 3287 <br>w: www.websiteblue.com e: james@websiteblue.com </div>";s:4:"text";s:175:"Sample
+--
+Kind Regards,
+James Groth
+ 
+Group Managing Director 
+Website Blue 
+p: 1300 650 520 s: jimby222 f: 07 3399 3287 
+w: www.websiteblue.com e: james@websiteblue.com ";s:9:"truncated";b:0;s:11:"attachments";a:0:{}}s:7:"starred";b:0;s:2:"cc";a:0:{}s:9:"requester";a:6:{s:2:"id";i:2830511;s:5:"email";s:23:"danmarklagman@gmail.com";s:4:"name";s:6:"Sample";s:4:"role";s:8:"customer";s:5:"agent";b:0;s:7:"picture";a:6:{s:7:"thumb20";s:81:"https://secure.gravatar.com/avatar/dcb9133ff06e35afcd9c31b7d5ce5b97.png?r=PG&s=20";s:7:"thumb24";s:81:"https://secure.gravatar.com/avatar/dcb9133ff06e35afcd9c31b7d5ce5b97.png?r=PG&s=24";s:7:"thumb32";s:81:"https://secure.gravatar.com/avatar/dcb9133ff06e35afcd9c31b7d5ce5b97.png?r=PG&s=32";s:7:"thumb48";s:81:"https://secure.gravatar.com/avatar/dcb9133ff06e35afcd9c31b7d5ce5b97.png?r=PG&s=48";s:7:"thumb64";s:81:"https://secure.gravatar.com/avatar/dcb9133ff06e35afcd9c31b7d5ce5b97.png?r=PG&s=64";s:8:"thumb128";s:82:"https://secure.gravatar.com/avatar/dcb9133ff06e35afcd9c31b7d5ce5b97.png?r=PG&s=128";}}}}}
