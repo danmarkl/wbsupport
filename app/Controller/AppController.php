@@ -33,15 +33,15 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	
     public $uses = array('User');
-	public $helpers = array('Html', 'Form', 'Text', 'SB');
+    public $helpers = array('Html', 'Form', 'Text', 'SB');
 
-	private $domain 	= "websiteblue";
-	private $token 		= "te2YpQHWeLE9Jqqdi9WK";
-	private $https		= "https://";
-	private $url 		= "supportbee.com/";
-	private $headers	= array('Content-Type: application/json', 'Accept: application/json');
+    private $domain 	= "websiteblue";
+    private $token 		= "te2YpQHWeLE9Jqqdi9WK";
+    private $https		= "https://";
+    private $url 		= "supportbee.com/";
+    private $headers	= array('Content-Type: application/json', 'Accept: application/json');
 
-	public $components = array(
+    public $components = array(
         'Session',
         'Auth' => array(
             'loginAction' => array(
@@ -95,42 +95,42 @@ class AppController extends Controller {
         }
     }
 
-	public function apiGet($method = null, array $options = array()) {
-		$ch = curl_init();
-		
-		if($options != null || !empty($options)) {
-			curl_setopt($ch, CURLOPT_URL, $this->https.$this->domain.'.'.$this->url.$method.'?'.$this->urlParams($options).'&auth_token='.$this->token);
-		} else {
-			curl_setopt($ch, CURLOPT_URL, $this->https.$this->domain.'.'.$this->url.$method.'?auth_token='.$this->token);
-		}
-		
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $this->headers);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_FAILONERROR, true);
-		$response = curl_exec($ch);
+    public function apiGet($method = null, array $options = array()) {
+        $ch = curl_init();
 
-		curl_close($ch);
+        if($options != null || !empty($options)) {
+            curl_setopt($ch, CURLOPT_URL, $this->https.$this->domain.'.'.$this->url.$method.'?'.$this->urlParams($options).'&auth_token='.$this->token);
+        } else {
+            curl_setopt($ch, CURLOPT_URL, $this->https.$this->domain.'.'.$this->url.$method.'?auth_token='.$this->token);
+        }
 
-		return json_decode($response, true);
-	}
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $this->headers);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FAILONERROR, true);
+        $response = curl_exec($ch);
 
-	public function apiPost() {
+        curl_close($ch);
 
-	}
+        return json_decode($response, true);
+    }
 
-	public function urlParams(array $options = array()) {
-		$arrayKeys = array_keys($options);
-		$lastKey = array_pop($arrayKeys);
-		$concat = '';
+    public function apiPost() {
 
-		foreach($options as $key => $val) {
-			$concat .= $key.'='.$val;
-			
-			if($key != $lastKey) {
-				$concat .= '&';
-			}
-		}
+    }
 
-		return $concat;
-	}
+    public function urlParams(array $options = array()) {
+        $arrayKeys = array_keys($options);
+        $lastKey = array_pop($arrayKeys);
+        $concat = '';
+
+        foreach($options as $key => $val) {
+            $concat .= $key.'='.$val;
+
+            if($key != $lastKey) {
+                    $concat .= '&';
+            }
+        }
+
+        return $concat;
+    }
 }
