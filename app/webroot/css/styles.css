@@ -21,3 +21,19 @@
 	font-size: 10px;
 	color: #c0c0c0;
 }
+
+body {
+	color: #555;
+}
+
+table {
+	color:#555555;
+}
+
+table.dataTable.no-footer {
+	border-bottom: 1px solid #ddd;
+}
+
+table.dataTable thead th {
+	border-bottom: 1px solid #ddd;
+}

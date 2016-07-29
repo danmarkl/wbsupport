@@ -2,7 +2,7 @@
 Tickets
 <?php echo $this->end(); ?>
 <div class="row">
-	<div class="col-md-2">
+	<div class="col-md-2" class="white-box">
 		<?php echo $this->Form->create('Ticket', array('role' => 'form')); ?>
 			<div class="form-group">
 			    <label>Search:</label>

@@ -71,7 +71,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'P@ssw0rd2016!',
+		'password' => '123456',
 		'database' => 'db_wbsupport',
 		'prefix' => '',
 		//'encoding' => 'utf8',
