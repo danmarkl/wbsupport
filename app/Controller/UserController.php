@@ -8,7 +8,7 @@ class UserController extends SupportBeeController {
     public function beforeFilter() {
         parent::beforeFilter();
         
-        $this->Auth->allow('index', 'login', 'logout', 'add', 'edit');
+        $this->Auth->allow('index', 'login', 'logout', 'add', 'edit', 'get');
         $this->set('page', 'user');
     }
 
@@ -51,8 +51,8 @@ class UserController extends SupportBeeController {
         }
 
         $this->set(array(
-                'teams' => $this->getTeams(),
-                'roles' => array('admin', 'client')
+            'teams' => $this->getTeams(),
+            'roles' => array('admin', 'client')
         ));
     }
 
@@ -78,9 +78,40 @@ class UserController extends SupportBeeController {
         }
 
         $this->set(array(
-                'user' => $user,
-                'roles' => array('admin', 'client'),
-                'teams' => $this->getTeams()
+            'user' => $user,
+            'roles' => array('admin', 'client'),
+            'teams' => $this->getTeams()
+        ));
+    }
+    
+    public function get($id=null) {
+        $this->layout = "websiteblue";
+        
+        if(!$id) throw new NotFoundException(__('Invalid user'));
+        
+        $user = $this->User->find('all', array(
+            'fields' => array(
+                'User.*',
+                'Team.*'
+            ),
+            'joins' => array(
+                array(
+                    'table' => 'teams',
+                    'alias' => 'Team',
+                    'type' => 'INNER',
+                    'conditions' => array(
+                        'Team.Code = User.TeamId'
+                    )
+                )
+            ),
+            'conditions' => array(
+                'User.Id' => $id,
+                'User.IsActive' => 1
+            )
+        ));
+        
+        $this->set(array(
+            'user' => $user[0]
         ));
     }
 

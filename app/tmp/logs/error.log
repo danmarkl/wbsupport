@@ -2608,3 +2608,77 @@ Stack Trace:
 #3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-07-29 09:22:26 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-29 09:24:30 Error: [MissingControllerException] Controller class WbsupportController could not be found.
+Exception Attributes: array (
+  'class' => 'WbsupportController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/wbsupport/ticket
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-07-29 09:25:07 Error: [MissingActionException] Action UserController::getr() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'getr',
+)
+Request URL: /wbsupport/user/getr
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-29 09:25:11 Error: [NotFoundException] Invalid user
+Request URL: /wbsupport/user/get
+Stack Trace:
+#0 [internal function]: UserController->get()
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-29 09:25:14 Error: [MissingViewException] View file "User/get.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/get.ctp',
+)
+Request URL: /wbsupport/user/get/1
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-29 09:25:49 Error: [MissingViewException] View file "User/get.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/get.ctp',
+)
+Request URL: /wbsupport/user/get/1
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-07-29 09:28:06 Error: [MissingViewException] View file "User/get.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User/get.ctp',
+)
+Request URL: /wbsupport/user/get/1
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

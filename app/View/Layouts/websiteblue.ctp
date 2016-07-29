@@ -44,7 +44,7 @@
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello, <?php echo $user['User']['FirstName']!=null ? $user['User']['FirstName'] : $user['User']['EmailAddress']; ?>! <b class="caret"></b></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Account Settings</a></li>
+					<li><a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'get', $user['User']['Id'])); ?>">Account Settings</a></li>
 					<li><a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'logout')); ?>">Logout</a></li>
 				</ul>
 			</li>
