@@ -37,3 +37,15 @@ table.dataTable.no-footer {
 table.dataTable thead th {
 	border-bottom: 1px solid #ddd;
 }
+
+.pagination > li.disabled, .pagination > li.current {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.428571429;
+    color: #777777;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    cursor: not-allowed;
+    margin-left: -1px;
+}

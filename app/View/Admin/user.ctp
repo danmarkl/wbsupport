@@ -63,9 +63,9 @@ Users
 		</div>
 		<ul class="pagination pull-right">
 		<?php
-			echo '<li>'.$this->Paginator->prev('< ', array('tag'=>'li', 'class'=>'prev'),null, array('tag'=>'a', 'class' => '')).'</li>';
-			echo '<li>'.$this->Paginator->numbers(array('tag'=>'li', 'separator'=>' | ', 'class'=>'', 'modulus'=>4)).'</li>';
-			echo '<li>'.$this->Paginator->next(" > ", array('tag'=>'li', 'class'=>'next'),null, array('tag'=>'a', 'class' => '')).'</li>';
+			echo $this->Paginator->prev('< ', array('tag'=>'li', 'class'=>'prev'), null, array('tag'=>'li', 'class' => 'disabled'));
+			echo $this->Paginator->numbers(array('tag'=>'li', 'separator'=>null, 'modulus'=>4));
+			echo $this->Paginator->next(" > ", array('tag'=>'li', 'class'=>'next'), null, array('tag'=>'li', 'class' => 'disabled'));
 		?>
 		</ul>
 	</div>

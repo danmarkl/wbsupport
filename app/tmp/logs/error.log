@@ -2692,3 +2692,47 @@ Stack Trace:
 #3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-08-01 10:17:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.*...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.*...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.*...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/wbsupport/app/Controller/AdminController.php(55): PaginatorComponent->paginate('User')
+#8 [internal function]: AdminController->user()
+#9 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#12 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-08-01 10:18:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.*...', Array)
+#2 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `User`.*...', Array, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Model/Datasource/DboSource.php(1113): DboSource->fetchAll('SELECT `User`.*...', false)
+#4 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3031): DboSource->read(Object(User), Array)
+#5 /var/www/html/wbsupport/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /var/www/html/wbsupport/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/html/wbsupport/app/Controller/AdminController.php(55): PaginatorComponent->paginate('User')
+#8 [internal function]: AdminController->user()
+#9 /var/www/html/wbsupport/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#10 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#12 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-08-01 10:42:30 Error: Fatal Error (4): syntax error, unexpected ''limit'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/html/wbsupport/app/Controller/AdminController.php, line 52]
+2016-08-01 10:42:30 Error: [FatalErrorException] syntax error, unexpected ''limit'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/w...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/w...', 52, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/w...', 52, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -48,7 +48,8 @@ class AdminController extends SupportBeeController {
             'conditions' => array(
                 'User.EmailAddress !=' => $this->Auth->user('EmailAddress'),
                 'User.IsActive' => 1
-            )
+            ),
+            'limit' => 10
         );
 
         $users = $this->Paginator->paginate('User');
@@ -86,7 +87,8 @@ class AdminController extends SupportBeeController {
                     "User.Role LIKE" => $search['role']."%",
                     "User.TeamId LIKE" => $search['team']."%",
                     "User.IsActive" => 1
-                )	
+                ),
+                'limit' => 10
             );
 
             $results = $this->Paginator->paginate('User');
