@@ -30,7 +30,7 @@ Tickets
 		<h4>Tickets assigned to My Team: <b><?php echo $team[0]['Team']['Name']; ?></b></h4>
 		<br>
 		<div class="table-responsive">
-			<table class="table table-condensed" id="dataTable">
+			<table class="table table-condensed table-hover" id="dataTable">
 				<thead>
 				<tr>
 					<th>Ticket ID</th>

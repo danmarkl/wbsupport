@@ -36,14 +36,14 @@ Users
 	<div class="col-md-10">
 		<br>
 		<div class="table-responsive">
-			<table class="table table-condensed" id="dataTable">
+			<table class="table table-condensed table-hover" id="dataTable">
 				<thead>
 					<tr>
 						<th>Email Address</th>
 						<th>Name</th>
 						<th>Role</th>
 						<th>Team</th>
-						<th></th>
+						<th>Actions</th>
 					</tr>
 				</thead>
 				<tbody>
