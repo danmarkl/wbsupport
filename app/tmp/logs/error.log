@@ -2765,3 +2765,13 @@ Request URL: /wbsupport/fonts/glyphicons-halflings-regular.ttf
 Stack Trace:
 #0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-08-02 07:13:44 Error: Fatal Error (1): Call to undefined method View::redirect() in [/var/www/html/wbsupport/app/View/Pages/home.ctp, line 1]
+2016-08-02 07:13:44 Error: [FatalErrorException] Call to undefined method View::redirect()
+Request URL: /wbsupport/
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 1, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 1, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
