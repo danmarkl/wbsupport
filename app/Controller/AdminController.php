@@ -103,7 +103,7 @@ class AdminController extends SupportBeeController {
             'labels' 	=> $labels,
             'page' 		=> 'user',
             'search' 	=> $search,
-            'teams' 	=> $this->getTeams()
+            'teams' 	=> $this->Team->find('all')
         ));
     }
 

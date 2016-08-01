@@ -24,8 +24,8 @@ Users
 		  	<div class="form-group">
 			    <select class="form-control input-sm" name="data[team]">
 			    	<option value="">Select Team</option>
-			    	<?php foreach($teams['teams'] as $team): ?>
-			    	<option <?php echo $search['team']==$team['id'] ? 'selected="selected"' : ''; ?> value="<?php echo $team['id']; ?>"><?php echo ucwords($team['name']); ?></option>
+			    	<?php foreach($teams as $team): ?>
+			    	<option <?php echo $search['team']==$team['Team']['Id'] ? 'selected="selected"' : ''; ?> value="<?php echo $team['Team']['Code']; ?>"><?php echo ucwords($team['Team']['Name']); ?></option>
 			    	<?php endforeach; ?>
 			    </select>
 		  	</div>
@@ -54,7 +54,7 @@ Users
 						<td><?php echo ucfirst($user['User']['Role']); ?></td>
 						<td><?php echo ucfirst($user['Team']['Name']); ?></td>
 						<td>
-                            <a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'edit', $user['User']['Id'])); ?>" class="btn btn-sm btn-success" title="edit"><i class="fa fa-fw fa-pencil"></i></a>
+                            <a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'edit', $user['User']['Id'])); ?>" class="btn btn-sm btn-primary" title="edit"><i class="fa fa-fw fa-pencil"></i></a>
 						</td>
 					</tr>
 					<?php endforeach; ?>
