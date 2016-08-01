@@ -8,6 +8,7 @@
 	<meta name="author" content="danmarkl">
 	<?php
 		echo $this->Html->css(array(
+            'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css',
 			'metro-bootstrap',
 			'jquery.dataTables.min',
 			'styles'

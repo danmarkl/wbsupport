@@ -54,7 +54,7 @@ Users
 						<td><?php echo ucfirst($user['User']['Role']); ?></td>
 						<td><?php echo ucfirst($user['Team']['Name']); ?></td>
 						<td>
-							<a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'edit', $user['User']['Id'])); ?>" class="btn btn-sm btn-default">edit</a>
+                            <a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'edit', $user['User']['Id'])); ?>" class="btn btn-sm btn-success" title="edit"><i class="fa fa-fw fa-pencil"></i></a>
 						</td>
 					</tr>
 					<?php endforeach; ?>

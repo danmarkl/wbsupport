@@ -2747,3 +2747,21 @@ Stack Trace:
 #1 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
 #2 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-08-01 16:14:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-01 16:14:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /wbsupport/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
