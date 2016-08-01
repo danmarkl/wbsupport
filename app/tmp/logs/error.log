@@ -2682,3 +2682,13 @@ Stack Trace:
 #3 /var/www/html/wbsupport/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
 #4 /var/www/html/wbsupport/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-08-01 07:54:39 Error: Fatal Error (1): Call to undefined function curl_init() in [/var/www/html/wbsupport/app/Controller/AppController.php, line 99]
+2016-08-01 07:54:39 Error: [FatalErrorException] Call to undefined function curl_init()
+Request URL: /wbsupport/admin/user
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/w...', 99)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/w...', 99, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/w...', 99, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

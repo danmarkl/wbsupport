@@ -31,7 +31,7 @@
         </table>
     </div>
 </div>
-<?php echo $this->start(''); ?>
+<?php echo $this->start('footerScripts'); ?>
 <script>
     
 </script>
