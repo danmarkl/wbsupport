@@ -38,15 +38,19 @@
 		<?php if($role=='admin'): ?>
 		<ul class="nav navbar-nav">
 			<!--<li class="<?php echo $page=='ticket' ? 'active' : ''; ?>"><a href="<?php echo $this->Html->Url(array('controller' => 'admin', 'action' => 'index')); ?>">Tickets</a></li>-->
-			<li class="<?php echo $page=='user' ? 'active' : ''; ?>"><a href="<?php echo $this->Html->Url(array('controller' => 'admin', 'action' => 'user')); ?>">Users</a></li>
+			<li class="<?php echo $page=='user' ? 'active' : ''; ?>"><a href="<?php echo $this->Html->Url(array('controller' => 'admin', 'action' => 'user')); ?>"><i class="fa fa-fw fa-user"></i>Users</a></li>
 		</ul>
+        <?php else: ?>
+        <ul class="nav navbar-nav">
+            <li class="<?php echo $page=='ticket' ? 'active' : ''; ?>"><a href="<?php echo $this->Html->Url(array('controller' => 'ticket', 'action' => 'index')); ?>"><i class="fa fa-fw fa-th-list"></i> Tickets</a></li>
+        </ul>
 		<?php endif; ?>
 		<ul class="nav navbar-nav navbar-right">
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Hello, <?php echo $user['User']['FirstName']!=null ? $user['User']['FirstName'] : $user['User']['EmailAddress']; ?>! <b class="caret"></b></a>
 				<ul class="dropdown-menu">
-					<li><a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'get', $user['User']['Id'])); ?>">Account Settings</a></li>
-					<li><a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'logout')); ?>">Logout</a></li>
+                    <li><a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'get', $user['User']['Id'])); ?>"><i class="fa fa-fw fa-gear"></i> Account Settings</a></li>
+                    <li><a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'logout')); ?>"><i class="fa fa-fw fa-unlock"></i> Logout</a></li>
 				</ul>
 			</li>
 		</ul>

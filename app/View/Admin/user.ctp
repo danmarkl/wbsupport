@@ -5,7 +5,7 @@ Users
 	<div class="col-md-2">
 		<?php echo $this->Form->create('User', array('role' => 'form', 'url' => array('controller' => 'admin', 'action' => 'user'))); ?>
 			<div class="form-group">
-			    <label>Search:</label>
+			    <label><i class="fa fa-fw fa-search"></i> Search:</label>
 		  	</div>
 			<div class="form-group">
 			    <input type="text" class="form-control input-sm" placeholder="Email Address" name="data[email]" value="<?php echo $search['email']; ?>">
@@ -29,8 +29,8 @@ Users
 			    	<?php endforeach; ?>
 			    </select>
 		  	</div>
-		  	<button type="submit" class="btn btn-primary btn-block btn-sm">Search</button>
-		  	<a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'add')); ?>" class="btn btn-default btn-block btn-sm">New User</a>
+            <button type="submit" class="btn btn-primary btn-block btn-sm"><i class="fa fa-fw fa-search"></i> Search</button>
+            <a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'add')); ?>" class="btn btn-default btn-block btn-sm"><i class="fa fa-fw fa-user-plus"></i> New User</a>
 		<?php echo $this->Form->end(); ?>
 	</div>
 	<div class="col-md-10">

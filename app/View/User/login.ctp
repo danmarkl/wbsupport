@@ -8,6 +8,7 @@
 	<meta name="author" content="danmarkl">
 	<?php
 		echo $this->Html->css(array(
+            'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css',
 			'metro-bootstrap'
 		));
 	?>
@@ -27,7 +28,7 @@
 				<div class="text-center box-logo"><?php echo $this->Html->image('/app/webroot/img/wblogo-blue.jpg'); ?></div>
 				<?php echo $this->Form->create('User', array('role' => 'form', 'url' => array('controller' => 'user', 'action' => 'login'))); ?>
 					<div class="panel panel-primary">
-						<div class="panel-heading">Account Login</div>
+                        <div class="panel-heading"><i class="fa fa-fw fa-user"></i> Account Login</div>
 						<div class="panel-body">
 							<div class="form-group">
 								<input type="email" name="data[User][EmailAddress]" placeholder="Email Address" class="form-control" required="required">
@@ -37,7 +38,7 @@
 							</div>
 						</div>
 						<div class="panel-footer">
-							<input type="submit" value="Login" class="btn btn-sm btn-primary btn-block">
+                            <button type="submit" class="btn btn-sm btn-primary btn-block"><i class="fa fa-fw fa-lock"></i> Login</button>
 							<!--<a href="<?php echo $this->Html->Url(array('controller' => 'user', 'action' => 'register')); ?>" class="btn btn-sm btn-default btn-block">New User? Please Register Here!</a>-->
 						</div>
 					</div>

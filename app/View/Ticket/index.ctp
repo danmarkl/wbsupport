@@ -5,7 +5,7 @@ Tickets
 	<div class="col-md-2" class="white-box">
 		<?php echo $this->Form->create('Ticket', array('role' => 'form')); ?>
 			<div class="form-group">
-			    <label>Search:</label>
+			    <label><i class="fa fa-fw fa-search"></i> Search:</label>
 		  	</div>
 			<div class="form-group">
 			    <input type="text" class="form-control input-sm" placeholder="Ticket ID" name="data[ticketid]" value="<?php echo $search['ticketid']; ?>">
@@ -22,7 +22,7 @@ Tickets
 			    	<option <?php echo "answered"==$search['label'] ? 'selected' : ''; ?> value="answered">Answered</option>
 			    </select>
 		  	</div>
-		  	<button type="submit" class="btn btn-primary btn-block btn-sm">Search</button>
+            <button type="submit" class="btn btn-primary btn-block btn-sm"><i class="fa fa-fw fa-search"></i> Search</button>
 		  	<!--<button type="button" class="btn btn-default btn-block btn-sm">New Ticket</button>-->
 		<?php echo $this->Form->end(); ?>
 	</div>

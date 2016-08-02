@@ -17,6 +17,8 @@ class TicketController extends SupportBeeController {
         if($this->Auth->user('Role') == 'client') {
             $this->Auth->allow('index','get', 'readcache');
         }
+        
+        $this->set('page', 'ticket');
     }
 
     public function readcache() {

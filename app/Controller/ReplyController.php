@@ -15,6 +15,8 @@ class ReplyController extends SupportBeeController {
         if($this->Auth->user('Role') == 'client') {
             $this->Auth->allow('get');
         }
+        
+        $this->set('page', 'ticket');
     }
 
     public function get($ticketId = null, $replyId = null) {

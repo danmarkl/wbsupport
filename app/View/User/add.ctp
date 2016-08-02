@@ -3,12 +3,12 @@ New User
 <?php echo $this-> end();?>
 <div class="row">
 	<div class="col-md-2">
-		<button type="button" id="btnSubmit" class="btn btn-sm btn-primary btn-block">Submit</button>
-		<button type="reset" id="btnReset" class="btn btn-sm btn-default btn-block">Reset</button>
-		<a href="<?php echo $this->Html->Url(array('controller' => 'admin', 'action' => 'user')); ?>" class="btn btn-sm btn-default btn-block">Back To List</a>
+        <button type="button" id="btnSubmit" class="btn btn-sm btn-primary btn-block"><i class="fa fa-fw fa-user-plus"></i> Submit</button>
+        <button type="reset" id="btnReset" class="btn btn-sm btn-default btn-block"><i class="fa fa-fw fa-undo"></i> Reset</button>
+        <a href="<?php echo $this->Html->Url(array('controller' => 'admin', 'action' => 'user')); ?>" class="btn btn-sm btn-default btn-block"><i class="fa fa-fw fa-arrow-circle-left"></i> Back To List</a>
 	</div>
 	<div class="col-md-10">
-		<h4>Create New User</h4>
+		<h4><i class="fa fa-fw fa-user-plus"></i> Create New User</h4>
 		<br>
 		<?php echo $this->Form->create('User', array('role' => 'form', 'id' => 'formAddUser', 'url' => array('controller' => 'user', 'action' => 'add'))); ?>
 		<div class="form-group">
