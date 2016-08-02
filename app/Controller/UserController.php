@@ -3,7 +3,7 @@ App::uses('SupportBeeController', 'Controller');
 
 class UserController extends SupportBeeController {
 	
-    public $uses = array('User');
+    public $uses = array('User', 'Team');
 
     public function beforeFilter() {
         parent::beforeFilter();
@@ -51,7 +51,7 @@ class UserController extends SupportBeeController {
         }
 
         $this->set(array(
-            'teams' => $this->getTeams(),
+            'teams' => $this->Team->find('all'),
             'roles' => array('admin', 'client')
         ));
     }

@@ -2775,3 +2775,13 @@ Stack Trace:
 #3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-08-02 08:34:23 Error: Fatal Error (1): Call to a member function find() on null in [/var/www/html/wbsupport/app/Controller/UserController.php, line 54]
+2016-08-02 08:34:23 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /wbsupport/user/add
+Stack Trace:
+#0 /var/www/html/wbsupport/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/w...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/w...', 54, Array)
+#2 /var/www/html/wbsupport/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/w...', 54, Array)
+#3 /var/www/html/wbsupport/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

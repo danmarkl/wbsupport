@@ -40,8 +40,8 @@ New User
 			<label for="" class="control-label">Select Team</label>
 			<select name="data[User][TeamId]" class="form-control">
 				<option value="">Select Team</option>
-				<?php foreach($teams['teams'] as $team): ?>
-				<option value="<?php echo $team['id']; ?>"><?php echo $team['name']; ?></option>
+				<?php foreach($teams as $team): ?>
+				<option value="<?php echo $team['Team']['Id']; ?>"><?php echo $team['Team']['Name']; ?></option>
 				<?php endforeach; ?>
 			</select>
 		</div>
